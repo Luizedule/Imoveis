@@ -96,10 +96,10 @@
 <section class="hero">
   <div class="hero-slides" id="slides">
     <img src="fotos/001.webp" alt="Entrada da casa" class="active">
+    <img src="fotos/c002.webp" alt="Piscina do condomínio">
     <img src="fotos/005.webp" alt="Sala de estar e jantar">
-    <img src="fotos/008.webp" alt="Espaço gourmet com churrasqueira">
     <img src="fotos/012.webp" alt="Suíte">
-    <img src="fotos/004.webp" alt="Sala de estar">
+    <img src="fotos/c001.webp" alt="Churrasqueira coberta e playground do condomínio">
     </div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
@@ -168,10 +168,10 @@
   <p class="gallery-label">Galeria</p>
   <div class="gallery-grid">
     <img class="featured" src="fotos/005.webp" alt="Sala de estar e jantar" onclick="openLightbox(4)">
+    <img src="fotos/c002.webp" alt="Piscina do condomínio" onclick="openLightbox(29)">
     <img src="fotos/001.webp" alt="Entrada da casa" onclick="openLightbox(0)">
-    <img src="fotos/008.webp" alt="Espaço gourmet com churrasqueira" onclick="openLightbox(7)">
     <img src="fotos/012.webp" alt="Suíte" onclick="openLightbox(10)">
-    <img src="fotos/027.webp" alt="Cozinha" onclick="openLightbox(23)">
+    <img src="fotos/c001.webp" alt="Churrasqueira coberta e playground do condomínio" onclick="openLightbox(28)">
     </div>
 </div>
 
@@ -215,6 +215,11 @@
     <img src="fotos/029.webp" alt="Área de serviço" loading="lazy" onclick="openLightbox(25)">
     <img src="fotos/032.webp" alt="Sala de estar" loading="lazy" onclick="openLightbox(26)">
     <img src="fotos/033.webp" alt="Sala de estar" loading="lazy" onclick="openLightbox(27)">
+    <img src="fotos/c001.webp" alt="Churrasqueira coberta e playground do condomínio" loading="lazy" onclick="openLightbox(28)">
+    <img src="fotos/c002.webp" alt="Piscina do condomínio" loading="lazy" onclick="openLightbox(29)">
+    <img src="fotos/c003.webp" alt="Vista das áreas comuns do condomínio" loading="lazy" onclick="openLightbox(30)">
+    <img src="fotos/c004.webp" alt="Ruas internas do condomínio" loading="lazy" onclick="openLightbox(31)">
+    <img src="fotos/c005.webp" alt="Ruas internas do condomínio" loading="lazy" onclick="openLightbox(32)">
     </div>
 </div>
 
@@ -293,7 +298,12 @@
     'fotos/028.webp',
     'fotos/029.webp',
     'fotos/032.webp',
-    'fotos/033.webp'
+    'fotos/033.webp',
+    'fotos/c001.webp',
+    'fotos/c002.webp',
+    'fotos/c003.webp',
+    'fotos/c004.webp',
+    'fotos/c005.webp'
   ];
   let lbIndex = 0;
   function openLightbox(i) { lbIndex = i; document.getElementById('lb-img').src = allSrcs[i]; document.getElementById('lightbox').classList.add('open'); }
