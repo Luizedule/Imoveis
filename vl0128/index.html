@@ -99,6 +99,7 @@
     <img src="fotos/001.webp" alt="Espaço gourmet com churrasqueira">
     <img src="fotos/006.webp" alt="Sala com lareira">
     <img src="fotos/013.webp" alt="Suíte com armários">
+    <img src="fotos/c001.webp" alt="Playground do condomínio">
     </div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
@@ -111,6 +112,7 @@
     <div class="dot" onclick="goTo(1)"></div>
     <div class="dot" onclick="goTo(2)"></div>
     <div class="dot" onclick="goTo(3)"></div>
+    <div class="dot" onclick="goTo(4)"></div>
     </div>
 </section>
 
@@ -144,7 +146,7 @@
       <p class="description-text">Casa em condomínio fechado na Vila São Francisco, zona oeste de São Paulo, com 330 m² de área construída em terreno de 330 m², quatro dormitórios — três deles suítes — cinco banheiros e três vagas de garagem.</p>
       <p class="description-text" style="margin-top:1.2rem;">Sala de estar com lareira e ar-condicionado, sala de jantar com terraço panorâmico, ampla cozinha e lavanderia com armários planejados. No pavimento inferior, quintal espaçoso com sala de convivência integrada a um espaço gourmet bem equipado, escritório e lavabo. Ar-condicionado em todos os quartos. O condomínio oferece segurança 24h, piscina, salão de festas e playground, e aceita pets.</p>
       <div class="diferenciais">
-        <span class="tag">Condomínio fechado</span><span class="tag">3 suítes</span><span class="tag">Lareira</span><span class="tag">Espaço gourmet</span><span class="tag">Ar-condicionado</span><span class="tag">Terraço panorâmico</span><span class="tag">Escritório</span><span class="tag">3 vagas</span><span class="tag">Aceita pets</span>
+        <span class="tag">Condomínio fechado</span><span class="tag">3 suítes</span><span class="tag">Lareira</span><span class="tag">Espaço gourmet</span><span class="tag">Piscina</span><span class="tag">Salão de festas</span><span class="tag">Playground</span><span class="tag">Ar-condicionado</span><span class="tag">Terraço panorâmico</span><span class="tag">Escritório</span><span class="tag">3 vagas</span>
       </div>
     </div>
     <ul class="features-list">
@@ -164,7 +166,7 @@
   <p class="gallery-label">Galeria</p>
   <div class="gallery-grid">
     <img class="featured" src="fotos/002.webp" alt="Sala com vista para o quintal" onclick="openLightbox(1)">
-    <img src="fotos/001.webp" alt="Espaço gourmet com churrasqueira" onclick="openLightbox(0)">
+    <img src="fotos/c001.webp" alt="Playground do condomínio" onclick="openLightbox(20)">
     <img src="fotos/006.webp" alt="Sala com lareira" onclick="openLightbox(5)">
     <img src="fotos/013.webp" alt="Suíte com armários" onclick="openLightbox(12)">
     <img src="fotos/005.webp" alt="Sala de estar e acesso à escada" onclick="openLightbox(4)">
@@ -203,6 +205,10 @@
     <img src="fotos/018.webp" alt="Banheiro com hidromassagem" loading="lazy" onclick="openLightbox(17)">
     <img src="fotos/019.webp" alt="Banheiro com bancada em granito" loading="lazy" onclick="openLightbox(18)">
     <img src="fotos/020.webp" alt="Banheiro com revestimento em madeira" loading="lazy" onclick="openLightbox(19)">
+    <img src="fotos/c001.webp" alt="Playground do condomínio" loading="lazy" onclick="openLightbox(20)">
+    <img src="fotos/c002.webp" alt="Ruas internas e paisagismo do condomínio" loading="lazy" onclick="openLightbox(21)">
+    <img src="fotos/c003.webp" alt="Ruas internas do condomínio" loading="lazy" onclick="openLightbox(22)">
+    <img src="fotos/c004.webp" alt="Ruas internas do condomínio" loading="lazy" onclick="openLightbox(23)">
     </div>
 </div>
 
@@ -273,7 +279,11 @@
     'fotos/017.webp',
     'fotos/018.webp',
     'fotos/019.webp',
-    'fotos/020.webp'
+    'fotos/020.webp',
+    'fotos/c001.webp',
+    'fotos/c002.webp',
+    'fotos/c003.webp',
+    'fotos/c004.webp'
   ];
   let lbIndex = 0;
   function openLightbox(i) { lbIndex = i; document.getElementById('lb-img').src = allSrcs[i]; document.getElementById('lightbox').classList.add('open'); }
