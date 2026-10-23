@@ -96,6 +96,7 @@
 <section class="hero">
   <div class="hero-slides" id="slides">
     <img src="fotos/002.webp" alt="Sala de estar e jantar" class="active">
+    <img src="fotos/c001.webp" alt="Piscina do condomínio">
     <img src="fotos/001.webp" alt="Sala com lareira e ar-condicionado">
     <img src="fotos/006.webp" alt="Quintal com paisagismo">
     <img src="fotos/012.webp" alt="Suíte com porta para o terraço">
@@ -111,6 +112,7 @@
     <div class="dot" onclick="goTo(1)"></div>
     <div class="dot" onclick="goTo(2)"></div>
     <div class="dot" onclick="goTo(3)"></div>
+    <div class="dot" onclick="goTo(4)"></div>
     </div>
 </section>
 
@@ -162,10 +164,10 @@
   <p class="gallery-label">Galeria</p>
   <div class="gallery-grid">
     <img class="featured" src="fotos/002.webp" alt="Sala de estar e jantar" onclick="openLightbox(1)">
-    <img src="fotos/001.webp" alt="Sala com lareira e ar-condicionado" onclick="openLightbox(0)">
+    <img src="fotos/c001.webp" alt="Piscina do condomínio" onclick="openLightbox(16)">
     <img src="fotos/006.webp" alt="Quintal com paisagismo" onclick="openLightbox(5)">
     <img src="fotos/012.webp" alt="Suíte com porta para o terraço" onclick="openLightbox(11)">
-    <img src="fotos/008.webp" alt="Cozinha" onclick="openLightbox(7)">
+    <img src="fotos/c003.webp" alt="Playground do condomínio" onclick="openLightbox(18)">
     </div>
 </div>
 
@@ -197,6 +199,14 @@
     <img src="fotos/014.webp" alt="Dormitório com armário espelhado" loading="lazy" onclick="openLightbox(13)">
     <img src="fotos/015.webp" alt="Dormitório com bancada de estudo" loading="lazy" onclick="openLightbox(14)">
     <img src="fotos/016.webp" alt="Dormitório com armários" loading="lazy" onclick="openLightbox(15)">
+    <img src="fotos/c001.webp" alt="Piscina do condomínio" loading="lazy" onclick="openLightbox(16)">
+    <img src="fotos/c002.webp" alt="Piscina com solarium" loading="lazy" onclick="openLightbox(17)">
+    <img src="fotos/c003.webp" alt="Playground do condomínio" loading="lazy" onclick="openLightbox(18)">
+    <img src="fotos/c004.webp" alt="Playground e área de descanso" loading="lazy" onclick="openLightbox(19)">
+    <img src="fotos/c005.webp" alt="Fonte na praça frontal" loading="lazy" onclick="openLightbox(20)">
+    <img src="fotos/c006.webp" alt="Ruas internas e paisagismo" loading="lazy" onclick="openLightbox(21)">
+    <img src="fotos/c007.webp" alt="Ruas internas e áreas verdes" loading="lazy" onclick="openLightbox(22)">
+    <img src="fotos/c008.webp" alt="Ruas internas do condomínio" loading="lazy" onclick="openLightbox(23)">
     </div>
 </div>
 
@@ -263,7 +273,15 @@
     'fotos/013.webp',
     'fotos/014.webp',
     'fotos/015.webp',
-    'fotos/016.webp'
+    'fotos/016.webp',
+    'fotos/c001.webp',
+    'fotos/c002.webp',
+    'fotos/c003.webp',
+    'fotos/c004.webp',
+    'fotos/c005.webp',
+    'fotos/c006.webp',
+    'fotos/c007.webp',
+    'fotos/c008.webp'
   ];
   let lbIndex = 0;
   function openLightbox(i) { lbIndex = i; document.getElementById('lb-img').src = allSrcs[i]; document.getElementById('lightbox').classList.add('open'); }
