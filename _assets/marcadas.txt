@@ -149,7 +149,6 @@ vl0183/fotos/c004.webp
 vl0183/fotos/c005.webp
 vl0183/fotos/c006.webp
 vl0183/fotos/c007.webp
-vl0188/fotos/001.webp
 vl0188/fotos/002.webp
 vl0188/fotos/003.webp
 vl0188/fotos/004.webp
